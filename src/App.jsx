@@ -17,9 +17,9 @@ const ContactSection = () => {
   // const handleSubmit = async (e) => {
   //   e.preventDefault();
 
-  //   const serviceID = "service_6o8hrl4";
-  //   const templateID = "template_nh54k35";
-  //   const publicKEY = "BC7hBODDPN6bxE0xO";
+  //   const serviceID = "";
+  //   const templateID = "";
+  //   const publicKEY = "";
 
   //   try {
   //     const response = await emailjs.send(
