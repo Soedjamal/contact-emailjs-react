@@ -41,9 +41,9 @@ const ContactSection = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const serviceID = "service_6o8hrl4";
-    const templateID = "template_nh54k35";
-    const publicKEY = "BC7hBODDPN6bxE0xO";
+    const serviceID = "";
+    const templateID = "";
+    const publicKEY = "";
 
     emailjs
       .send(serviceID, templateID, formData, publicKEY)
