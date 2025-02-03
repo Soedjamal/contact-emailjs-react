@@ -47,7 +47,7 @@ const ContactSection = () => {
 
     emailjs
       .send(serviceID, templateID, formData, publicKEY)
-      .then((reponse) => {
+      .then((response) => {
         console.log("success", response.status, response.text);
 
         setStatus("Message send successfully");
